@@ -1,0 +1,5 @@
+os: osx
+
+script:
+  - brew tap nwtgck/math2img
+  - brew install math2img
