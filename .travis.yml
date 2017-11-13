@@ -1,5 +1,8 @@
 os: osx
 
 script:
-  - brew tap nwtgck/math2img
-  - brew install math2img
+  - brew update
+  # Try to install by local formula
+  - brew install ./math2img.rb
+  # Check path
+  - which math2img
