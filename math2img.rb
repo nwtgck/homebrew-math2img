@@ -5,7 +5,7 @@ APP_FILE_NAME    = "math2img-v#{MATH2IMG_VERSION}-macOS"
 class Math2img < Formula
     desc "Convert LaTeX Math to image"
     url "https://github.com/nwtgck/math2img/releases/download/v#{MATH2IMG_VERSION}/#{APP_FILE_NAME}"
-    sha256 "4789d779a105d9500d1e9167c878507ce6c8fef7e4814af5496354811caa3d23"
+    sha256 "55f46cef8622b14f3240c34e768061690afa93b193237d8bad115b1ab22c844c"
     # shasum -a 256 <binary>
 
     def install
