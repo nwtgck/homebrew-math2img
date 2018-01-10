@@ -1,5 +1,5 @@
 
-MATH2IMG_VERSION = "0.4.0"
+MATH2IMG_VERSION = "0.4.0.1"
 APP_FILE_NAME    = "math2img-v#{MATH2IMG_VERSION}-macOS"
 
 class Math2img < Formula
